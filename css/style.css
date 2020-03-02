@@ -1,0 +1,114 @@
+/* style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper>div {
+    background: #ffffff;
+    padding: 1em;
+    object-fit: fill;
+}
+
+.wrapper>div:nth-child(odd) {
+    background: #ffffff;
+}
+
+.box {
+    object-fit: cover;
+}
+
+.georgenow {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.drakedev {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.pbj {
+    grid-column: span 2;
+    grid-row: 3/span 2;
+}
+
+.clarkaccessibility {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.tempconverter {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.seensay {
+    grid-column: 4/span 1;
+    grid-row: 1/span 4;
+}
+
+.deadmannequins {
+    grid-column: 1/span 1;
+    grid-row: span 2;
+}
+
+.whichcraft {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.crystalball {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.example-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.example-wrapper>div {
+    background: #ffffff;
+    padding: 1em;
+    object-fit: cover;
+}
+
+.example-wrapper>div:nth-child(odd) {
+    background: #ffffff;
+}
+
+.example-header {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.example-header-image {
+    grid-column: span 3;
+}
+
+.example-text {
+    grid-column: span 2;
+}
+
+.example-skills {
+    grid-column: span 1;
+}
