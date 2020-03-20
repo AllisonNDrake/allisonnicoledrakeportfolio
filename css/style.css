@@ -22,6 +22,7 @@ body {
 	color: #333333;
 	font-size: 14px;
 	background: #070A11;
+	font-family: 'Roboto', sans-serif;
 }
 
 a:link, a:visited {
@@ -236,6 +237,7 @@ h2.title span {
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: #002037;
+	font-family: 'Roboto', serif;
 }
 
 .navbar-default .navbar-toggle {
